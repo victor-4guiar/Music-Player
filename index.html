@@ -4,25 +4,23 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE-edge">
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="style.css">
 		<script defer src="index.js"></script>
 		<title>Music Player</title>
 	</head>
-	<body>
+	<body onload="main()">
 		<header>
 			<h1>Music Player</h1>
 		</header>
 		<main>
 			<section>
-				<div>
+				<div class="configs">
 					<label for="link">Coloque o link da música</label>
 					<input type="text" name="link" id="link" placeholder="Link da música">
 					<p>ou</p>
 					<input type="button" name="rodar" id="rodar" value="Rodar arquivo">
 				</div>
-				<div>
-					<input type="button" name="feito" id="feito" value="Feito">
-				</div>
+				<input type="button" name="feito" id="feito" value="Feito">
 			</section>
 		</main>
 		<footer><a href="#">Make by <strong>Victor Aguiar</strong></a></footer>
